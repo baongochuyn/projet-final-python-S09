@@ -1,8 +1,0 @@
-[2025-11-27 14:57:38] Trefle: Monstera deliciosa récupéré avec succès
-[2025-11-27 14:57:39] Perenual liste: Monstera deliciosa récupérée
-[2025-11-27 14:57:40] Erreur Perenual pour Monstera deliciosa: 429 Client Error: Too Many Requests for url: https://perenual.com/api/v2/species/details/5257?key=sk-8QbV6928332256cb313699
-[2025-11-27 14:57:41] GBIF occurrences: Monstera deliciosa récupéré
-[2025-11-27 14:57:41] Trefle: Ficus lyrata récupéré avec succès
-[2025-11-27 14:57:43] Perenual liste: Ficus lyrata récupérée
-[2025-11-27 14:57:44] Perenual détails: espèce 2963 récupérée
-[2025-11-27 14:57:44] GBIF occurrences: Ficus lyrata récupéré

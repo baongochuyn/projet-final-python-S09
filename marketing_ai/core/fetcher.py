@@ -33,14 +33,15 @@ def fetch_perenual_species_list(query: str = None, page: int = 1) -> dict:
     logger.log(f"Perenual liste: {query if query else 'toutes'} récupérée")
     return resp.json()
 
-def fetch_perenual_species_details(species_id: int) -> dict:
+
+# def fetch_perenual_species_details(species_id: int) -> dict:
     """Récupère les détails d'une espèce Perenual"""
-    url = f"{config.PERENUAL_BASE_URL}/species/details/{species_id}"
-    params = {"key": config.PERENUAL_KEY}
-    resp = requests.get(url, params=params)
-    resp.raise_for_status()
-    logger.log(f"Perenual détails: espèce {species_id} récupérée")
-    return resp.json()
+ #   url = f"{config.PERENUAL_BASE_URL}/species/details/{species_id}"
+ #   params = {"key": config.PERENUAL_KEY}
+ #   resp = requests.get(url, params=params)
+ #   resp.raise_for_status()
+ #   logger.log(f"Perenual détails: espèce {species_id} récupérée")
+ #   return resp.json()
 
 # ------------------ GBIF ------------------ #
 def fetch_gbif_species_occurrence(scientific_name: str, limit: int = 50) -> dict:
@@ -71,8 +72,8 @@ def fetch_all_plants(query_list: list):
             all_data["perenual"].append(perenual_list)
             if perenual_list["data"]:
                 species_id = perenual_list["data"][0]["id"]
-                details = fetch_perenual_species_details(species_id)
-                all_data["perenual"].append(details)
+                # details = fetch_perenual_species_details(species_id)
+                # all_data["perenual"].append(details)
         except Exception as e:
             print(f"Erreur Perenual pour {query}: {e}")
             logger.log(f"Erreur Perenual pour {query}: {e}")
