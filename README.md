@@ -17,10 +17,9 @@ python marketing_ai/main.py
 
 ### Structure du projet
 
-marketing_ai/
-
+marketing_ai
 ├── main.py
-├── core/
+├── core
 │ ├── config.py  
 │ ├── fetcher.py  
 │ ├── cleaner.py  
@@ -29,7 +28,7 @@ marketing_ai/
 │ ├── model.py  
 │ ├── recommender.py  
 │ └── viz.py  
-├── data/
+├── data
 │ ├── raw/  
 │ ├── processed/  
 │ └── models/  
