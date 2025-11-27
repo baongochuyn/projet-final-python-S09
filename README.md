@@ -1,6 +1,7 @@
 ### commande pour mettre en place env windows
 
-git clone <URL_DU_REPO>
+git clone https://github.com/baongochuyn/projet-final-python-S09.git
+
 cd projet-final-python-S09
 
 python -m venv .venv
