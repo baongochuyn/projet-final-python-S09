@@ -1,0 +1,11 @@
+{
+  "total_documents": 23,
+  "avg_scientific_name_length": 1.9130434782608696,
+  "avg_common_name_length": 1.608695652173913,
+  "unique_sources": 3,
+  "top_sources": {
+    "trefle": 20,
+    "gbif": 2,
+    "perenual": 1
+  }
+}

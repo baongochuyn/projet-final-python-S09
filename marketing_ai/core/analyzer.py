@@ -45,24 +45,10 @@ def save_summary(kpis: dict, output_file: Path):
     output_file.parent.mkdir(exist_ok=True, parents=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(kpis, f, ensure_ascii=False, indent=2)
-    print(f"Summary saved to {output_file}")
+    print(f"Résumé sauvegardé dans {output_file}")
 
 
 def save_keywords(df_keywords: pd.DataFrame, output_file: Path):
     output_file.parent.mkdir(exist_ok=True, parents=True)
     df_keywords.to_csv(output_file, index=False, encoding="utf-8")
-    print(f"Keywords saved to {output_file}")
-
-
-def main(processed_file: str = "marketing_ai/data/processed/plant_catalog.json"):
-    df = pd.read_json(processed_file)
-
-    kpis = calculate_kpis(df)
-    df_keywords = extract_keywords(df, column='common_name', top_n=50)
-
-    save_summary(kpis, output_file=Path("marketing_ai/reports/summary.json"))
-    save_keywords(df_keywords, output_file=Path("marketing_ai/reports/keywords.csv"))
-
-
-if __name__ == "__main__":
-    main()
+    print(f"Mots-clés sauvegardés dans {output_file}")
