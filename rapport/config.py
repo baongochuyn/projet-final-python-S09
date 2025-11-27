@@ -8,3 +8,8 @@ PERENUAL_KEY = "sk-8QbV6928332256cb313699"
 
 # GBIF API
 GBIF_BASE_URL = "https://api.gbif.org/v1/occurrence/search"
+
+RAW_DIR = "data/raw"
+PROCESSED_DIR = "data/processed"
+LOG_PATH ='/logs'
+
