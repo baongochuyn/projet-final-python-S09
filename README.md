@@ -18,7 +18,8 @@ python marketing_ai/main.py
 ### Structure du projet
 
 marketing_ai/
-├── main.py # Orchestration complète du pipeline
+
+├── main.py
 ├── core/
 │ ├── config.py  
 │ ├── fetcher.py  
