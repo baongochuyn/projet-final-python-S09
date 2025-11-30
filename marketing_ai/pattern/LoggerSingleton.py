@@ -11,7 +11,7 @@ class LoggerSingleton:
             with cls._lock:
                 if cls._instance is None:
                     cls._instance = super().__new__(cls)
-                    cls._instance._log_file = "marketing_ai/logs/marketing.log"
+                    cls._instance._log_file = "logs/marketing.log"
         return cls._instance
 
     def log(self, message: str):
