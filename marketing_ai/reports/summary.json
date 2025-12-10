@@ -7,5 +7,334 @@
     "trefle": 20,
     "gbif": 2,
     "perenual": 1
-  }
+  },
+  "ml_metrics": {
+    "task": "Clustering (KMeans)",
+    "k_clusters": 7,
+    "silhouette_score": 0.0337
+  },
+  "ml_interpretation": [
+    {
+      "cluster_id": 0,
+      "size": 1,
+      "top_terms": [
+        {
+          "term": "cirsium",
+          "weight": 0.5774
+        },
+        {
+          "term": "cirsium arvense",
+          "weight": 0.5774
+        },
+        {
+          "term": "arvense",
+          "weight": 0.5774
+        },
+        {
+          "term": "fagus sylvatica",
+          "weight": 0.0
+        },
+        {
+          "term": "festuca",
+          "weight": 0.0
+        },
+        {
+          "term": "festuca rubra",
+          "weight": 0.0
+        },
+        {
+          "term": "ficus",
+          "weight": 0.0
+        },
+        {
+          "term": "ficus lyrata",
+          "weight": 0.0
+        },
+        {
+          "term": "filipendula",
+          "weight": 0.0
+        },
+        {
+          "term": "vulgaris",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 15,
+      "top_terms": [
+        {
+          "term": "trifolium",
+          "weight": 0.0721
+        },
+        {
+          "term": "trifolium repens",
+          "weight": 0.0417
+        },
+        {
+          "term": "trifolium pratense",
+          "weight": 0.04
+        },
+        {
+          "term": "pratense",
+          "weight": 0.04
+        },
+        {
+          "term": "vulgaris",
+          "weight": 0.0385
+        },
+        {
+          "term": "festuca",
+          "weight": 0.0385
+        },
+        {
+          "term": "juncus effusus",
+          "weight": 0.0385
+        },
+        {
+          "term": "urtica dioica",
+          "weight": 0.0385
+        },
+        {
+          "term": "fraxinus excelsior",
+          "weight": 0.0385
+        },
+        {
+          "term": "fraxinus",
+          "weight": 0.0385
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 2,
+      "top_terms": [
+        {
+          "term": "ranunculus",
+          "weight": 0.541
+        },
+        {
+          "term": "ranunculus repens",
+          "weight": 0.3124
+        },
+        {
+          "term": "ranunculus acris",
+          "weight": 0.2998
+        },
+        {
+          "term": "acris",
+          "weight": 0.2998
+        },
+        {
+          "term": "repens",
+          "weight": 0.2761
+        },
+        {
+          "term": "festuca",
+          "weight": 0.0
+        },
+        {
+          "term": "excelsior",
+          "weight": 0.0
+        },
+        {
+          "term": "fagus",
+          "weight": 0.0
+        },
+        {
+          "term": "fagus sylvatica",
+          "weight": 0.0
+        },
+        {
+          "term": "festuca rubra",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 1,
+      "top_terms": [
+        {
+          "term": "holcus",
+          "weight": 0.5774
+        },
+        {
+          "term": "lanatus",
+          "weight": 0.5774
+        },
+        {
+          "term": "holcus lanatus",
+          "weight": 0.5774
+        },
+        {
+          "term": "effusus",
+          "weight": 0.0
+        },
+        {
+          "term": "glomerata",
+          "weight": 0.0
+        },
+        {
+          "term": "fraxinus excelsior",
+          "weight": 0.0
+        },
+        {
+          "term": "fraxinus",
+          "weight": 0.0
+        },
+        {
+          "term": "filipendula ulmaria",
+          "weight": 0.0
+        },
+        {
+          "term": "filipendula",
+          "weight": 0.0
+        },
+        {
+          "term": "ficus lyrata",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 2,
+      "top_terms": [
+        {
+          "term": "quercus",
+          "weight": 0.5299
+        },
+        {
+          "term": "quercus rotundifolia",
+          "weight": 0.2998
+        },
+        {
+          "term": "quercus robur",
+          "weight": 0.2998
+        },
+        {
+          "term": "robur",
+          "weight": 0.2998
+        },
+        {
+          "term": "rotundifolia",
+          "weight": 0.2998
+        },
+        {
+          "term": "dioica",
+          "weight": 0.0
+        },
+        {
+          "term": "effusus",
+          "weight": 0.0
+        },
+        {
+          "term": "excelsior",
+          "weight": 0.0
+        },
+        {
+          "term": "fagus",
+          "weight": 0.0
+        },
+        {
+          "term": "vulgaris",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 1,
+      "top_terms": [
+        {
+          "term": "achillea",
+          "weight": 0.5774
+        },
+        {
+          "term": "achillea millefolium",
+          "weight": 0.5774
+        },
+        {
+          "term": "millefolium",
+          "weight": 0.5774
+        },
+        {
+          "term": "vulgaris",
+          "weight": 0.0
+        },
+        {
+          "term": "excelsior",
+          "weight": 0.0
+        },
+        {
+          "term": "glomerata",
+          "weight": 0.0
+        },
+        {
+          "term": "fraxinus excelsior",
+          "weight": 0.0
+        },
+        {
+          "term": "fraxinus",
+          "weight": 0.0
+        },
+        {
+          "term": "filipendula ulmaria",
+          "weight": 0.0
+        },
+        {
+          "term": "filipendula",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 1,
+      "top_terms": [
+        {
+          "term": "glomerata",
+          "weight": 0.5774
+        },
+        {
+          "term": "dactylis",
+          "weight": 0.5774
+        },
+        {
+          "term": "dactylis glomerata",
+          "weight": 0.5774
+        },
+        {
+          "term": "vulgaris",
+          "weight": 0.0
+        },
+        {
+          "term": "excelsior",
+          "weight": 0.0
+        },
+        {
+          "term": "holcus",
+          "weight": 0.0
+        },
+        {
+          "term": "fraxinus excelsior",
+          "weight": 0.0
+        },
+        {
+          "term": "fraxinus",
+          "weight": 0.0
+        },
+        {
+          "term": "filipendula ulmaria",
+          "weight": 0.0
+        },
+        {
+          "term": "filipendula",
+          "weight": 0.0
+        }
+      ]
+    }
+  ]
 }

@@ -17703,7 +17703,7 @@
           "publishingCountry": "AU",
           "protocol": "DWC_ARCHIVE",
           "lastCrawled": "2025-11-26T20:06:31.831+00:00",
-          "lastParsed": "2025-11-27T05:40:41.919+00:00",
+          "lastParsed": "2025-11-28T18:58:01.458+00:00",
           "crawlId": 552,
           "extensions": {},
           "basisOfRecord": "HUMAN_OBSERVATION",
@@ -17780,8 +17780,8 @@
                 }
               ],
               "issues": [
-                "SCIENTIFIC_NAME_ID_NOT_FOUND",
-                "TAXON_CONCEPT_ID_NOT_FOUND"
+                "TAXON_CONCEPT_ID_NOT_FOUND",
+                "SCIENTIFIC_NAME_ID_NOT_FOUND"
               ]
             },
             "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
@@ -17842,8 +17842,8 @@
                 }
               ],
               "issues": [
-                "SCIENTIFIC_NAME_ID_NOT_FOUND",
-                "TAXON_CONCEPT_ID_NOT_FOUND"
+                "TAXON_CONCEPT_ID_NOT_FOUND",
+                "SCIENTIFIC_NAME_ID_NOT_FOUND"
               ]
             }
           },
@@ -17901,7 +17901,7 @@
             "TAXON_CONCEPT_ID_NOT_FOUND"
           ],
           "modified": "2025-05-08T14:30:15.393+00:00",
-          "lastInterpreted": "2025-11-27T05:40:41.919+00:00",
+          "lastInterpreted": "2025-11-28T18:58:01.458+00:00",
           "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
           "isSequenced": false,
           "identifiers": [
@@ -19489,7 +19489,7 @@
           "publishingCountry": "AU",
           "protocol": "DWC_ARCHIVE",
           "lastCrawled": "2025-11-26T20:06:31.831+00:00",
-          "lastParsed": "2025-11-27T05:44:36.337+00:00",
+          "lastParsed": "2025-11-28T18:57:29.822+00:00",
           "crawlId": 552,
           "extensions": {},
           "basisOfRecord": "HUMAN_OBSERVATION",
@@ -19695,7 +19695,7 @@
             "TAXON_CONCEPT_ID_NOT_FOUND"
           ],
           "modified": "2025-05-08T14:30:15.393+00:00",
-          "lastInterpreted": "2025-11-27T05:44:36.337+00:00",
+          "lastInterpreted": "2025-11-28T18:57:29.822+00:00",
           "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
           "isSequenced": false,
           "identifiers": [
