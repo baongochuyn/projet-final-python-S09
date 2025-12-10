@@ -17702,9 +17702,9 @@
           "hostingOrganizationKey": "3c5e4331-7f2f-4a8d-aa56-81ece7014fc8",
           "publishingCountry": "AU",
           "protocol": "DWC_ARCHIVE",
-          "lastCrawled": "2025-12-03T20:14:09.462+00:00",
-          "lastParsed": "2025-12-04T07:33:35.302+00:00",
-          "crawlId": 554,
+          "lastCrawled": "2025-12-10T05:44:18.107+00:00",
+          "lastParsed": "2025-12-10T19:36:29.134+00:00",
+          "crawlId": 557,
           "extensions": {},
           "basisOfRecord": "HUMAN_OBSERVATION",
           "occurrenceStatus": "PRESENT",
@@ -17901,7 +17901,7 @@
             "TAXON_CONCEPT_ID_NOT_FOUND"
           ],
           "modified": "2025-05-08T14:30:15.393+00:00",
-          "lastInterpreted": "2025-12-04T07:33:35.302+00:00",
+          "lastInterpreted": "2025-12-10T19:36:29.134+00:00",
           "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
           "isSequenced": false,
           "identifiers": [
@@ -19488,9 +19488,9 @@
           "hostingOrganizationKey": "3c5e4331-7f2f-4a8d-aa56-81ece7014fc8",
           "publishingCountry": "AU",
           "protocol": "DWC_ARCHIVE",
-          "lastCrawled": "2025-12-03T20:14:09.462+00:00",
-          "lastParsed": "2025-12-04T07:32:47.722+00:00",
-          "crawlId": 554,
+          "lastCrawled": "2025-12-10T05:44:18.107+00:00",
+          "lastParsed": "2025-12-10T19:36:45.131+00:00",
+          "crawlId": 557,
           "extensions": {},
           "basisOfRecord": "HUMAN_OBSERVATION",
           "occurrenceStatus": "PRESENT",
@@ -19572,8 +19572,8 @@
               ],
               "iucnRedListCategoryCode": "LC",
               "issues": [
-                "SCIENTIFIC_NAME_ID_NOT_FOUND",
-                "TAXON_CONCEPT_ID_NOT_FOUND"
+                "TAXON_CONCEPT_ID_NOT_FOUND",
+                "SCIENTIFIC_NAME_ID_NOT_FOUND"
               ]
             },
             "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
@@ -19635,8 +19635,8 @@
               ],
               "iucnRedListCategoryCode": "LC",
               "issues": [
-                "SCIENTIFIC_NAME_ID_NOT_FOUND",
-                "TAXON_CONCEPT_ID_NOT_FOUND"
+                "TAXON_CONCEPT_ID_NOT_FOUND",
+                "SCIENTIFIC_NAME_ID_NOT_FOUND"
               ]
             }
           },
@@ -19695,7 +19695,7 @@
             "TAXON_CONCEPT_ID_NOT_FOUND"
           ],
           "modified": "2025-05-08T14:30:15.393+00:00",
-          "lastInterpreted": "2025-12-04T07:32:47.722+00:00",
+          "lastInterpreted": "2025-12-10T19:36:45.131+00:00",
           "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
           "isSequenced": false,
           "identifiers": [
@@ -19727,10 +19727,10 @@
           "gbifID": "5150638356",
           "type": "Event",
           "catalogNumber": "SMKVI0076617",
-          "vernacularName": "Fig",
+          "vernacularName": "Lyrate Leaf-fig",
           "locationRemarks": "locationRemarks withheld",
           "institutionCode": "NSW Dept of Planning, Industry and Environment",
-          "taxonConceptID": "ALA_DR24112_363",
+          "taxonConceptID": "ALA_DR30477_168",
           "rights": "Unknown",
           "http://unknown.org/easting": "344569",
           "identifier": "eb58515b-1b98-4c1f-937b-8f96ebbaa943",
