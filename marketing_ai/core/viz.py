@@ -1,4 +1,3 @@
-# core/viz.py
 import pandas as pd
 import numpy as np
 import json
@@ -7,85 +6,28 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import Dict, Any, List
 from core.config import REPORTS_DIR, FIGURES_DIR, PROCESSED_DIR, MODELS_DIR
-from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.units import inch
-from reportlab.graphics import renderPDF
-from svglib.svglib import svg2rlg
-from PIL import Image
 
 # --- Fonction Utilitaires pour la Visualisation ---
 
-
-def create_dashboard_pdf(figure_paths: list[Path], output_path: Path):
-    """
-    Crée un PDF tableau de bord à partir de figures PNG ou SVG.
-    Chaque figure est insérée sur une page, centrée et redimensionnée.
-    """
-
+def create_dashboard_pdf(figure_paths: List[Path], output_path: Path):
+    from matplotlib.backends.backend_pdf import PdfPages
+    
     try:
-        # Création du PDF
-        c = canvas.Canvas(str(output_path), pagesize=letter)
-        page_width, page_height = letter
-        margin = 0.5 * inch
-
-        for fig_path in figure_paths:
-            try:
-                max_width = page_width - 2 * margin
-                max_height = page_height - 2 * margin
-
-                if fig_path.suffix.lower() == ".svg":
-                    # SVG -> drawing avec svglib
-                    drawing = svg2rlg(str(fig_path))
-
-                    # Redimensionner pour tenir dans la page
-                    scale_w = max_width / drawing.width
-                    scale_h = max_height / drawing.height
-                    scale = min(scale_w, scale_h, 1)
-                    drawing.width *= scale
-                    drawing.height *= scale
-                    drawing.scale(scale, scale)
-
-                    # Centrer la figure
-                    x = (page_width - drawing.width) / 2
-                    y = (page_height - drawing.height) / 2
-                    renderPDF.draw(drawing, c, x, y)
-
-                else:
-                    # PNG ou autre raster
-                    img = Image.open(fig_path)
-                    img_width, img_height = img.size
-
-                    # DPI par défaut si non défini
-                    dpi = img.info.get("dpi", (72, 72))
-                    img_width_in = img_width / dpi[0] * inch
-                    img_height_in = img_height / dpi[1] * inch
-
-                    # Redimensionner pour tenir dans la page
-                    scale_w = max_width / img_width_in
-                    scale_h = max_height / img_height_in
-                    scale = min(scale_w, scale_h, 1)
-                    img_width_in *= scale
-                    img_height_in *= scale
-
-                    # Centrer l'image
-                    x = (page_width - img_width_in) / 2
-                    y = (page_height - img_height_in) / 2
-                    c.drawImage(str(fig_path), x, y, width=img_width_in, height=img_height_in)
-
-                # Nouvelle page pour la figure suivante
-                c.showPage()
-
-            except Exception as e:
-                print(f"Erreur lors de l'ajout de la figure {fig_path}: {e}")
-
-        # Sauvegarder le PDF
-        c.save()
+        with PdfPages(output_path) as pdf:
+            for fig_path in figure_paths:
+                try:
+                    # Charger la figure et l'ajouter au PDF
+                    fig = plt.imread(fig_path)
+                    plt.figure(figsize=(11, 8.5)) # Taille lettre standard
+                    plt.imshow(fig)
+                    plt.axis('off')
+                    pdf.savefig()
+                    plt.close()
+                except Exception as e:
+                    print(f"Erreur lors de l'ajout de la figure {fig_path} au PDF: {e}")
         print(f"Tableau de bord PDF créé : {output_path}")
-
     except Exception as e:
         print(f"Erreur lors de la création du PDF : {e}")
-
 
 
 # --- Fonctions de Visualisation KPI ---
@@ -194,7 +136,7 @@ def plot_timeline_activity(df_meta: pd.DataFrame) -> Path:
 
 def plot_cluster_top_terms(summary_data: Dict[str, Any]) -> Path:
     """Figure ML: Barres "top n-grams par cluster" (pour Clustering)"""
-    fig_path = Path(FIGURES_DIR) / "cluster_top_terms.svg"
+    fig_path = Path(FIGURES_DIR) / "cluster_top_terms.png"
     
     cluster_analysis = summary_data.get('ml_interpretation', [])
     
@@ -219,7 +161,7 @@ def plot_cluster_top_terms(summary_data: Dict[str, Any]) -> Path:
         ax.set_ylabel('')
         
     plt.tight_layout(rect=[0, 0, 1, 1.0])
-    plt.savefig(fig_path,format="svg")
+    plt.savefig(fig_path)
     plt.close()
     return fig_path
 
