@@ -19,6 +19,10 @@
       "size": 1,
       "top_terms": [
         {
+          "term": "arvense",
+          "weight": 0.5774
+        },
+        {
           "term": "cirsium",
           "weight": 0.5774
         },
@@ -27,35 +31,31 @@
           "weight": 0.5774
         },
         {
-          "term": "arvense",
-          "weight": 0.5774
-        },
-        {
-          "term": "fagus sylvatica",
-          "weight": 0.0
-        },
-        {
-          "term": "festuca",
-          "weight": 0.0
-        },
-        {
-          "term": "festuca rubra",
-          "weight": 0.0
-        },
-        {
-          "term": "ficus",
-          "weight": 0.0
-        },
-        {
-          "term": "ficus lyrata",
-          "weight": 0.0
-        },
-        {
-          "term": "filipendula",
+          "term": "urtica",
           "weight": 0.0
         },
         {
           "term": "vulgaris",
+          "weight": 0.0
+        },
+        {
+          "term": "urtica dioica",
+          "weight": 0.0
+        },
+        {
+          "term": "trifolium",
+          "weight": 0.0
+        },
+        {
+          "term": "sylvatica",
+          "weight": 0.0
+        },
+        {
+          "term": "rumex acetosa",
+          "weight": 0.0
+        },
+        {
+          "term": "rumex",
           "weight": 0.0
         }
       ]
@@ -81,15 +81,7 @@
           "weight": 0.04
         },
         {
-          "term": "vulgaris",
-          "weight": 0.0385
-        },
-        {
-          "term": "festuca",
-          "weight": 0.0385
-        },
-        {
-          "term": "juncus effusus",
+          "term": "ulmaria",
           "weight": 0.0385
         },
         {
@@ -97,11 +89,19 @@
           "weight": 0.0385
         },
         {
-          "term": "fraxinus excelsior",
+          "term": "urtica",
           "weight": 0.0385
         },
         {
-          "term": "fraxinus",
+          "term": "sylvatica",
+          "weight": 0.0385
+        },
+        {
+          "term": "rumex acetosa",
+          "weight": 0.0385
+        },
+        {
+          "term": "rumex",
           "weight": 0.0385
         }
       ]
@@ -131,23 +131,23 @@
           "weight": 0.2761
         },
         {
-          "term": "festuca",
+          "term": "urtica",
           "weight": 0.0
         },
         {
-          "term": "excelsior",
+          "term": "trifolium pratense",
           "weight": 0.0
         },
         {
-          "term": "fagus",
+          "term": "trifolium",
           "weight": 0.0
         },
         {
-          "term": "fagus sylvatica",
+          "term": "rumex acetosa",
           "weight": 0.0
         },
         {
-          "term": "festuca rubra",
+          "term": "sylvatica",
           "weight": 0.0
         }
       ]
@@ -157,11 +157,11 @@
       "size": 1,
       "top_terms": [
         {
-          "term": "holcus",
+          "term": "lanatus",
           "weight": 0.5774
         },
         {
-          "term": "lanatus",
+          "term": "holcus",
           "weight": 0.5774
         },
         {
@@ -169,31 +169,31 @@
           "weight": 0.5774
         },
         {
-          "term": "effusus",
+          "term": "ulmaria",
           "weight": 0.0
         },
         {
-          "term": "glomerata",
+          "term": "urtica",
           "weight": 0.0
         },
         {
-          "term": "fraxinus excelsior",
+          "term": "vulgaris",
           "weight": 0.0
         },
         {
-          "term": "fraxinus",
+          "term": "trifolium",
           "weight": 0.0
         },
         {
-          "term": "filipendula ulmaria",
+          "term": "sylvatica",
           "weight": 0.0
         },
         {
-          "term": "filipendula",
+          "term": "rumex acetosa",
           "weight": 0.0
         },
         {
-          "term": "ficus lyrata",
+          "term": "rumex",
           "weight": 0.0
         }
       ]
@@ -205,6 +205,10 @@
         {
           "term": "quercus",
           "weight": 0.5299
+        },
+        {
+          "term": "rotundifolia",
+          "weight": 0.2998
         },
         {
           "term": "quercus rotundifolia",
@@ -219,27 +223,23 @@
           "weight": 0.2998
         },
         {
-          "term": "rotundifolia",
-          "weight": 0.2998
-        },
-        {
-          "term": "dioica",
+          "term": "urtica",
           "weight": 0.0
         },
         {
-          "term": "effusus",
+          "term": "trifolium pratense",
           "weight": 0.0
         },
         {
-          "term": "excelsior",
+          "term": "trifolium repens",
           "weight": 0.0
         },
         {
-          "term": "fagus",
+          "term": "trifolium",
           "weight": 0.0
         },
         {
-          "term": "vulgaris",
+          "term": "sylvatica",
           "weight": 0.0
         }
       ]
@@ -249,6 +249,10 @@
       "size": 1,
       "top_terms": [
         {
+          "term": "millefolium",
+          "weight": 0.5774
+        },
+        {
           "term": "achillea",
           "weight": 0.5774
         },
@@ -257,35 +261,31 @@
           "weight": 0.5774
         },
         {
-          "term": "millefolium",
-          "weight": 0.5774
+          "term": "ulmaria",
+          "weight": 0.0
+        },
+        {
+          "term": "urtica",
+          "weight": 0.0
         },
         {
           "term": "vulgaris",
           "weight": 0.0
         },
         {
-          "term": "excelsior",
+          "term": "trifolium",
           "weight": 0.0
         },
         {
-          "term": "glomerata",
+          "term": "sylvatica",
           "weight": 0.0
         },
         {
-          "term": "fraxinus excelsior",
+          "term": "rumex acetosa",
           "weight": 0.0
         },
         {
-          "term": "fraxinus",
-          "weight": 0.0
-        },
-        {
-          "term": "filipendula ulmaria",
-          "weight": 0.0
-        },
-        {
-          "term": "filipendula",
+          "term": "rumex",
           "weight": 0.0
         }
       ]
@@ -295,6 +295,10 @@
       "size": 1,
       "top_terms": [
         {
+          "term": "dactylis glomerata",
+          "weight": 0.5774
+        },
+        {
           "term": "glomerata",
           "weight": 0.5774
         },
@@ -303,35 +307,31 @@
           "weight": 0.5774
         },
         {
-          "term": "dactylis glomerata",
-          "weight": 0.5774
+          "term": "urtica",
+          "weight": 0.0
         },
         {
           "term": "vulgaris",
           "weight": 0.0
         },
         {
-          "term": "excelsior",
+          "term": "urtica dioica",
           "weight": 0.0
         },
         {
-          "term": "holcus",
+          "term": "trifolium",
           "weight": 0.0
         },
         {
-          "term": "fraxinus excelsior",
+          "term": "sylvatica",
           "weight": 0.0
         },
         {
-          "term": "fraxinus",
+          "term": "rumex acetosa",
           "weight": 0.0
         },
         {
-          "term": "filipendula ulmaria",
-          "weight": 0.0
-        },
-        {
-          "term": "filipendula",
+          "term": "rumex",
           "weight": 0.0
         }
       ]

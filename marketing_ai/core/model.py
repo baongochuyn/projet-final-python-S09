@@ -8,6 +8,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from typing import Dict, Any, List
 from core.config import RANDOM_STATE, K_CLUSTERS, MODELS_DIR
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 def load_features(features_path: Path, vectorizer_path: Path) -> tuple[spmatrix, Any]:
