@@ -6,3 +6,4 @@ matplotlib
 reportlab
 svglib
 pillow
+seaborn
